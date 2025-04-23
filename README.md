@@ -26,3 +26,15 @@ cp Agent.cs AgentApp/
 cd AgentApp
 dotnet run
 ```
+**Note: The agent will connect back to the server (127.0.0.1:9001 by default).**
+
+3. Frontend (Node.js Panel)
+Navigate to frontend/
+
+Run:
+```
+npm init -y
+npm install express axios body-parser
+node app.js
+```
+Access the panel at: http://localhost:3000
